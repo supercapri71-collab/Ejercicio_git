@@ -12,7 +12,12 @@ saludo = function () {
       let prome;
       let nombre = recuperarTexto("txtNombre");
       let apellido = recuperarTexto("txtApellido");
+      let edad = recuperarInt("txtEdad");
+      let estatura = recuperarFloat("txtEstatura");
       prome = nombre + " " + apellido;
       mostrarTexto("lblProme", prome);
+      mostrarTexto("lblProme1", edad);
+      mostrarTexto("lblProme2", estatura);
+
 }
 
