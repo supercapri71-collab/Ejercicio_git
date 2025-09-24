@@ -18,6 +18,14 @@ saludo = function () {
       mostrarTexto("lblProme", prome);
       mostrarTexto("lblProme1", edad);
       mostrarTexto("lblProme2", estatura);
-
+      mostrarImagen("lblImagen","James02.png");
 }
 
+cero=function(){
+mostrarTextoEnCaja("txtNombre","");
+mostrarTextoEnCaja("txtApellido","");
+mostrarTextoEnCaja("txtEdad","");
+mostrarTextoEnCaja("txtEstatura","");
+
+
+}
